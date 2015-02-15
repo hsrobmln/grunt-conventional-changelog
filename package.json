@@ -1,6 +1,6 @@
 {
   "name": "grunt-conventional-changelog",
-  "version": "1.1.0",
+  "version": "1.1.1-mln",
   "description": "Generate a markdown changelog from git commit data",
   "main": "index.js",
   "engines": {
@@ -10,10 +10,10 @@
     "test": "grunt && node test/test.js && grunt clean"
   },
   "author": "Brian Ford (http://briantford.com)",
-  "bugs": "https://github.com/btford/grunt-conventional-changelog/issues",
+  "bugs": "https://github.com/hsrobmln/grunt-conventional-changelog/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/btford/grunt-conventional-changelog.git"
+    "url": "https://github.com/hsrobmln/grunt-conventional-changelog.git"
   },
   "keywords": [
     "grunt",
@@ -26,11 +26,14 @@
     },
     {
       "name": "Vojta Jína"
+    },
+    {
+      "name": "Robert Parker"
     }
   ],
   "license": "BSD",
   "dependencies": {
-    "conventional-changelog": "0.0.11"
+    "conventional-changelog": "git://github.com/hsrobmln/conventional-changelog"
   },
   "devDependencies": {
     "ava": "0.0.4",
